@@ -20,6 +20,7 @@ class Song
     artist = song_parts[0]
     song_name = song_parts[1]
     new_song = Song.new(song_name)
+    new_song.artist_name = artist
     
     binding.pry
   end
