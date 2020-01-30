@@ -19,6 +19,7 @@ class Song
     song_parts = file.split(" - ")
     artist = song_parts[0]
     song_name = song_parts[1]
+    new_song = Song.new(song_name)
     
     binding.pry
   end
